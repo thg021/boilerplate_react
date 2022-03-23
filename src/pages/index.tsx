@@ -6,8 +6,6 @@ type Props = {
     title: string
 }
 
-let test = 'ts'
-
 export default function Home({ title = 'React avançado' }: Props) {
     return (
         <div className={styles.container}>
